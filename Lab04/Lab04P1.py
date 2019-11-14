@@ -2,7 +2,11 @@ def main():
     print("This program will calculate the nth value of the Fibonacci sequence.")
     userInput = validLoop()
     posCheck = isPos(userInput)
-    print("The value of the fib sequence at position {0} is {1}".format(posCheck,fib(posCheck)))
+    result = []
+    start = 1
+    for posCheck in range(start, posCheck+1):
+        result.append(fib(posCheck))
+    print("The value of the fib sequence at position {0} is {1}".format(posCheck,result))
     return
 
 def fib(i):
