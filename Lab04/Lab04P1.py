@@ -3,8 +3,7 @@ def main():
     userInput = validLoop()
     posCheck = isPos(userInput)
     result = []
-    start = 1
-    for posCheck in range(start, posCheck+1):
+    for posCheck in range(posCheck+1):
         result.append(fib(posCheck))
     print("The value of the fib sequence at position {0} is {1}".format(posCheck,result))
     return
