@@ -1,3 +1,5 @@
+#An idea I've had is to figure out how to print out the fibonacci sequence into a table-like pattern
+
 def main():
     print("This program will calculate the nth value of the Fibonacci sequence.")
     userInput = validLoop()
